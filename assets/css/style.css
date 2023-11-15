@@ -7,8 +7,25 @@
 }
 #hero {
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url('https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original");
   background-position: center;
   background-size: cover;
+}
+
+#hero header {
+  height: 8vh;
+  padding: 0rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eee;
+}
+#hero header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+
 }
