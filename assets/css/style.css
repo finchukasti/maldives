@@ -21,11 +21,64 @@
   align-items: center;
   color: #eee;
 }
-#hero header nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    gap: 2rem;
+#hero header h1 {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
 
+#hero header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+#hero header nav ul li {
+  cursor: pointer;
+}
+
+#hero header nav ul li:hover {
+  color: #ba8105;
+  border-bottom: 1px solid #ba8105;
+  transition: 0.3s;
+}
+
+#hero main {
+  max-width: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#hero main h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #eee;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 500;
+}
+#hero main h1 span {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 500;
+  color: #db9705;
+}
+#hero main p {
+  font-size: 1, 1rem;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+#hero main a {
+  background-color: #db9705;
+  padding: 0.8rem 2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  color: #eee;
+  font-weight: 600;
+}
+#hero main a:hover {
+  background-color: #ba8105;
+  transition: 0.3s;
 }
